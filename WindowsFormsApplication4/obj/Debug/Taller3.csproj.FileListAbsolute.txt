@@ -1,0 +1,17 @@
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\Taller3.csproj.GenerateResource.Cache
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\GMap.NET.Core.dll
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\GMap.NET.WindowsForms.dll
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.UserControl1.resources
+c:\users\juan-\onedrive\documents\visual studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.ShowInfo.resources
+C:\Users\juan-\OneDrive\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\Taller3.csprojResolveAssemblyReference.cache
+C:\Users\juan-\OneDrive\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Informacion.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
