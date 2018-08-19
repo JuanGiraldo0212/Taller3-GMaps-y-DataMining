@@ -15,9 +15,25 @@ namespace WindowsFormsApplication4
 {
     public partial class UserControl1 : UserControl
     {
+        private Principal principal;
+        private Informacion info;
+        private PanelReportes rep;
+        private PanelAgregar agre;
+        
+
         public UserControl1()
         {
             InitializeComponent();
+            principal = new Principal();
+            agre = new PanelAgregar(this);
+            rep = new PanelReportes(this);
+            info = new Informacion(this);
+            
+        }
+
+        public void agregarGrupoInvestigacion(String[] datos)
+        {
+            principal.escritura(datos);
         }
 
         private void gmap_Load(object sender, EventArgs e)
@@ -42,21 +58,16 @@ namespace WindowsFormsApplication4
 
         private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
         {
-
-            
-            Informacion info = new Informacion();
             info.Show();
     }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            PanelReportes rep = new PanelReportes();
             rep.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            PanelAgregar agre = new PanelAgregar();
             agre.Show();
         }
     }

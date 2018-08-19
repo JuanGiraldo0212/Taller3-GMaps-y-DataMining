@@ -12,9 +12,23 @@ namespace WindowsFormsApplication4
 {
     public partial class Informacion : Form
     {
-        public Informacion()
+
+        private UserControl1 principal;
+
+        public Informacion(UserControl1 actual)
         {
             InitializeComponent();
+            principal = actual;
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

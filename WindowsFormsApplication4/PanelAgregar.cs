@@ -12,9 +12,21 @@ namespace WindowsFormsApplication4
 {
     public partial class PanelAgregar : Form
     {
-        public PanelAgregar()
+
+        private UserControl1 principal;
+
+        public PanelAgregar(UserControl1 actual)
         {
             InitializeComponent();
+            principal = actual;
+
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            String[] datos = { txtNombre.Text, txtRegion.Text, txtCiudad.Text, txtAreaInvestigacion.Text, txtClasificacion.Text, txtArticulos.Text };
+            principal.agregarGrupoInvestigacion(datos);
+        }
+        
     }
 }

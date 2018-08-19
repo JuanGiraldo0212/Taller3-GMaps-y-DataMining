@@ -28,22 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.reportes1 = new WindowsFormsApplication4.Reportes();
+            this.cbxReporte = new System.Windows.Forms.ComboBox();
+            this.btnReporte = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // reportes1
+            // cbxReporte
             // 
-            this.reportes1.Location = new System.Drawing.Point(-5, 2);
-            this.reportes1.Name = "reportes1";
-            this.reportes1.Size = new System.Drawing.Size(780, 521);
-            this.reportes1.TabIndex = 0;
+            this.cbxReporte.FormattingEnabled = true;
+            this.cbxReporte.Location = new System.Drawing.Point(40, 187);
+            this.cbxReporte.Name = "cbxReporte";
+            this.cbxReporte.Size = new System.Drawing.Size(147, 21);
+            this.cbxReporte.TabIndex = 1;
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.Location = new System.Drawing.Point(40, 230);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(147, 42);
+            this.btnReporte.TabIndex = 2;
+            this.btnReporte.Text = "Reporte";
+            this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(223, 29);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(465, 433);
+            this.panel1.TabIndex = 3;
             // 
             // PanelReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(781, 531);
-            this.Controls.Add(this.reportes1);
+            this.ClientSize = new System.Drawing.Size(722, 494);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnReporte);
+            this.Controls.Add(this.cbxReporte);
             this.Name = "PanelReportes";
             this.Text = "PanelReportes";
             this.ResumeLayout(false);
@@ -51,7 +74,8 @@
         }
 
         #endregion
-
-        private Reportes reportes1;
+        private System.Windows.Forms.ComboBox cbxReporte;
+        private System.Windows.Forms.Button btnReporte;
+        private System.Windows.Forms.Panel panel1;
     }
 }

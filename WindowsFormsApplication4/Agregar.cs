@@ -12,9 +12,15 @@ namespace WindowsFormsApplication4
 {
     public partial class Agregar : UserControl
     {
+
         public Agregar()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

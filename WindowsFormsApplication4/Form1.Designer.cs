@@ -37,7 +37,6 @@
             this.userControl11.Name = "userControl11";
             this.userControl11.Size = new System.Drawing.Size(754, 553);
             this.userControl11.TabIndex = 0;
-            this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
             // 
             // Form1
             // 
@@ -47,6 +46,7 @@
             this.Controls.Add(this.userControl11);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

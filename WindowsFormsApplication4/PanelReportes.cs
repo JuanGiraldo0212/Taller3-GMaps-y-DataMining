@@ -12,9 +12,17 @@ namespace WindowsFormsApplication4
 {
     public partial class PanelReportes : Form
     {
-        public PanelReportes()
+        private UserControl1 principal;
+
+        public PanelReportes(UserControl1 actual)
         {
             InitializeComponent();
+            principal = actual;
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
