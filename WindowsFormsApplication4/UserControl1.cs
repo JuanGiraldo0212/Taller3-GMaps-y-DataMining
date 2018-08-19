@@ -42,8 +42,22 @@ namespace WindowsFormsApplication4
 
         private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
         {
-          
-        
+
+            
+            Informacion info = new Informacion();
+            info.Show();
     }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            PanelReportes rep = new PanelReportes();
+            rep.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PanelAgregar agre = new PanelAgregar();
+            agre.Show();
+        }
     }
 }

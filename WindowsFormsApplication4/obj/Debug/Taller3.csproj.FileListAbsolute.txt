@@ -15,3 +15,17 @@ C:\Users\juan-\OneDrive\Documents\Visual Studio 2015\Projects\WindowsFormsApplic
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\GMap.NET.Core.dll
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Informacion.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.ShowInfo.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.UserControl1.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.GenerateResource.Cache
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Reportes.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelReportes.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Agregar.resources
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelAgregar.resources
