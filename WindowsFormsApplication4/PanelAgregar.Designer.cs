@@ -170,6 +170,7 @@
             this.Controls.Add(this.lblNombre);
             this.Name = "PanelAgregar";
             this.Text = "PanelAgregar";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PanelAgregar_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
