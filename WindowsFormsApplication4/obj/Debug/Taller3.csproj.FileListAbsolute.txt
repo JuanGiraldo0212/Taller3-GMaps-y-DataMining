@@ -49,3 +49,4 @@ C:\Users\hp\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj
 C:\Users\hp\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.CopyComplete
 C:\Users\hp\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 C:\Users\hp\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csprojResolveAssemblyReference.cache

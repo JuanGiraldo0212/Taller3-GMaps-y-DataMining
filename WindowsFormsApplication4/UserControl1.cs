@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using GMap.NET;
+using System.Collections;
 
 namespace WindowsFormsApplication4
 {
@@ -29,6 +30,10 @@ namespace WindowsFormsApplication4
             rep = new PanelReportes(this);
             info = new Informacion(this);
             
+        }
+
+        public ArrayList getGrupos() {
+            return principal.getGrupos();
         }
 
         public void agregarGrupoInvestigacion(String[] datos)

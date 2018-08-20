@@ -26,5 +26,10 @@ namespace WindowsFormsApplication4
         {
 
         }
+
+        private void Reportes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

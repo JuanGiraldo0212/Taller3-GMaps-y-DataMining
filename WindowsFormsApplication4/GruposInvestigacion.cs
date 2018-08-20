@@ -8,7 +8,8 @@ namespace WindowsFormsApplication4
 {
     class GruposInvestigacion
     {
-        
+        public static String[] CIUDADES = {"Bogota","Cali","Medellin" };
+        public static String[] REGIONES = { "Bogota", "Cali", "Medellin" };
         public string nombre { get; set; }
         public string region { get; set; }
         public string ciudad { get; set; }

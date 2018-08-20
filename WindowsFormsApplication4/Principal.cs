@@ -65,9 +65,12 @@ namespace WindowsFormsApplication4
             {
                 Console.WriteLine("Exception: " + e.Message);
             }
+
         }
 
-
+        public ArrayList getGrupos() {
+            return gruposInvestigacion;
+        }
 
 
     }
