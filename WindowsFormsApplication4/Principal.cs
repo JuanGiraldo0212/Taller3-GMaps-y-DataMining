@@ -43,9 +43,7 @@ namespace WindowsFormsApplication4
 						GruposInvestigacion registroNuevo = new GruposInvestigacion(cadena[0], cadena[1], cadena[2], cadena[3], cadena[4], cadena[5]);
 						gruposInvestigacion.Add(registroNuevo);
 					}
-
-
-
+                    
 				}
 
 				sr.Close();
@@ -65,8 +63,7 @@ namespace WindowsFormsApplication4
 
                 GruposInvestigacion registroNuevo = new GruposInvestigacion(datos[0], datos[1], datos[2], datos[3], datos[4], datos[5]);
                 sw.WriteLine(registroNuevo.nombre + "," + registroNuevo.region + "," + registroNuevo.ciudad + "," + registroNuevo.areaInvestigacion + "," + registroNuevo.clasificacion + "," + registroNuevo.articulos);
-
-
+                
                 sw.Close();
             }
             catch (Exception e)

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.gmap = new GMap.NET.WindowsForms.GMapControl();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             this.Buscar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // gmap
@@ -64,12 +64,12 @@
             this.gmap.OnMarkerClick += new GMap.NET.WindowsForms.MarkerClick(this.gmap_OnMarkerClick);
             this.gmap.Load += new System.EventHandler(this.gmap_Load);
             // 
-            // textBox1
+            // txtBuscar
             // 
-            this.textBox1.Location = new System.Drawing.Point(70, 495);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(149, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtBuscar.Location = new System.Drawing.Point(70, 495);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(149, 20);
+            this.txtBuscar.TabIndex = 1;
             // 
             // Buscar
             // 
@@ -80,34 +80,34 @@
             this.Buscar.Text = "Buscar";
             this.Buscar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnAgregar
             // 
-            this.button2.Location = new System.Drawing.Point(411, 489);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 31);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnAgregar.Location = new System.Drawing.Point(411, 489);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(106, 31);
+            this.btnAgregar.TabIndex = 3;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // button3
+            // btnReportes
             // 
-            this.button3.Location = new System.Drawing.Point(570, 488);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 31);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Reportes";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnReportes.Location = new System.Drawing.Point(570, 488);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(101, 31);
+            this.btnReportes.TabIndex = 4;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.UseVisualStyleBackColor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnReportes);
+            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.Buscar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.gmap);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(754, 553);
@@ -120,9 +120,9 @@
         #endregion
 
         private GMap.NET.WindowsForms.GMapControl gmap;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button Buscar;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnReportes;
     }
 }

@@ -98,16 +98,20 @@ namespace WindowsFormsApplication4
                 info.txtArticulosChange = s.articulos;
                 info.Show();
             }
+
+            
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnAgregar_Click(object sender, EventArgs e)
         {
-            rep.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
+            agre = new PanelAgregar(this);
             agre.Show();
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            rep = new PanelReportes(this);
+            rep.Show();
         }
     }
 }

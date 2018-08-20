@@ -1,4 +1,4 @@
-Convocatoria 781 de 2017,01/01/2017,COL0024964,Solidos  Porosos y Calorimetría Aplicada,01/04/2000,"Bogotá, D.C.","Bogotá, D. C.",Colombia,Distrito Capital,11001,1D,Ciencias químicas,Ciencias naturales,C,2,17
+﻿Convocatoria 781 de 2017,01/01/2017,COL0024964,Solidos  Porosos y Calorimetría Aplicada,01/04/2000,"Bogotá, D.C.","Bogotá, D. C.",Colombia,Distrito Capital,11001,1D,Ciencias químicas,Ciencias naturales,C,2,17
 Convocatoria 781 de 2017,01/01/2017,COL0033103,"Evolucion, sistematica y ecologia molecular",01/02/2001,Santa Marta,Magdalena,Colombia,Caribe,47001,1F,Ciencias biológicas,Ciencias naturales,A1,5,16
 Convocatoria 781 de 2017,01/01/2017,COL0025881,Grupo de Investigaciones Andrés Bello del Semillero Rafael Wenceslao Núñez Moledo.,01/11/2004,Barranquilla,Atlántico,Colombia,Caribe,08001,5E,Derecho,Ciencias sociales,C,2,13
 Convocatoria 781 de 2017,01/01/2017,COL0023976,"GRUPO DE INVESTIGACIÓN EN DEMOGRAFIA, SALUD PUBLICA Y SISTEMAS DE SALUD - GUINDESS",01/05/2002,Bucaramanga,Santander,Colombia,Centro Oriente,68001,3C,Ciencias de la salud,Ciencias médicas y de la salud,A1,5,15
