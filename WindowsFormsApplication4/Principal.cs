@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace WindowsFormsApplication4
 {
 
-    class Principal
+    public class Principal
     {
-        ArrayList gruposInvestigacion;
+        public ArrayList gruposInvestigacion;
         String ruta = "Registros.txt";
         
 
