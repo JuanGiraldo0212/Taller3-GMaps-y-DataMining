@@ -10,22 +10,23 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication4
 {
-    public partial class PanelAgregar : Form
-    {
+	public partial class PanelAgregar : Form
+	{
 
-        private UserControl1 principal;
+		private UserControl1 principal;
 
-        public PanelAgregar(UserControl1 actual)
-        {
-            InitializeComponent();
-            principal = actual;
+		public PanelAgregar(UserControl1 actual)
+		{
+			InitializeComponent();
+			principal = actual;
 
-        }
+		}
 
-        private void btnAgregar_Click(object sender, EventArgs e)
-        {
-            String[] datos = { txtNombre.Text, txtRegion.Text, txtCiudad.Text, txtAreaInvestigacion.Text, txtClasificacion.Text, txtArticulos.Text };
-            principal.agregarGrupoInvestigacion(datos);
+		private void btnAgregar_Click(object sender, EventArgs e)
+		{
+			string[] articulos = txtArticulos.Text.Trim().Split(' ');
+			String[] datos = { txtNombre.Text, txtRegion.Text, txtCiudad.Text, txtAreaInvestigacion.Text, txtClasificacion.Text};
+            principal.agregarGrupoInvestigacion(datos, articulos);
         }
 
         private void PanelAgregar_FormClosed(object sender, FormClosedEventArgs e)
