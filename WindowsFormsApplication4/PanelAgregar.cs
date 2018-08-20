@@ -27,6 +27,10 @@ namespace WindowsFormsApplication4
             String[] datos = { txtNombre.Text, txtRegion.Text, txtCiudad.Text, txtAreaInvestigacion.Text, txtClasificacion.Text, txtArticulos.Text };
             principal.agregarGrupoInvestigacion(datos);
         }
-        
+
+        private void PanelAgregar_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
     }
 }
