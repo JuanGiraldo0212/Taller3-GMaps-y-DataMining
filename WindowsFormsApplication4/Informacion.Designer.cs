@@ -61,6 +61,7 @@
             this.txtArticulos.Name = "txtArticulos";
             this.txtArticulos.Size = new System.Drawing.Size(200, 106);
             this.txtArticulos.TabIndex = 25;
+            this.txtArticulos.TextChanged += new System.EventHandler(this.txtArticulos_TextChanged);
             // 
             // txtClasificacion
             // 
@@ -96,6 +97,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(200, 20);
             this.txtNombre.TabIndex = 20;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // lblArticulis
             // 
@@ -182,6 +184,7 @@
             this.Controls.Add(this.lblNombre);
             this.Name = "Informacion";
             this.Text = "Informacion";
+            this.Load += new System.EventHandler(this.Informacion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
