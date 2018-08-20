@@ -116,7 +116,8 @@ namespace WindowsFormsApplication4
                 s.region = txtRegion.Text;
                 s.clasificacion = txtClasificacion.Text;
                 s.areaInvestigacion = txtAreaInvestigacion.Text;
-                s.articulos = txtArticulos.Text;
+				string[] articulos = txtArticulos.Text.Trim().Split(' ');
+				s.articulos = articulos;
             }
 
         }

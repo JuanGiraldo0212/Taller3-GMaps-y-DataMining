@@ -15,10 +15,11 @@ namespace WindowsFormsApplication4
         public string ciudad { get; set; }
         public string areaInvestigacion { get; set; }
         public string clasificacion { get; set; }
-        public string articulos { get; set; }
+        public string[] articulos { get; set; }
+		public string codigo { get; set; }
 
-        public GruposInvestigacion(string nombre, string region, string ciudad, string areaInvestigacion,
-                                    string clasificacion, string articulos)
+		public GruposInvestigacion(string nombre, string region, string ciudad, string areaInvestigacion,
+                                    string clasificacion, string[] articulos, string codigo)
         {
             this.nombre = nombre;
             this.region = region;
@@ -26,6 +27,7 @@ namespace WindowsFormsApplication4
             this.areaInvestigacion = areaInvestigacion;
             this.clasificacion = clasificacion;
             this.articulos = articulos;
+			this.codigo = codigo;
         }
 
 

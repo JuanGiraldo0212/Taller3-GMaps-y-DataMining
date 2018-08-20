@@ -47,9 +47,9 @@ namespace WindowsFormsApplication4
             return principal.getGrupos();
         }
 
-        public void agregarGrupoInvestigacion(String[] datos)
+        public void agregarGrupoInvestigacion(String[] datos, string[] articulos)
         {
-            principal.escritura(datos);
+            principal.escritura(datos, articulos);
         }
 
         private void gmap_Load(object sender, EventArgs e)
@@ -95,7 +95,12 @@ namespace WindowsFormsApplication4
                 info.txtCiudadChange = s.ciudad;
                 info.txtClasificacionChange = s.clasificacion;
                 info.txtAreaInvestigacionChange = s.areaInvestigacion;
-                info.txtArticulosChange = s.articulos;
+				string articulos = "";
+				foreach(string art in s.articulos)
+				{
+					articulos += art + " ";
+				}
+                info.txtArticulosChange = articulos;
                 info.Show();
             }
         }
