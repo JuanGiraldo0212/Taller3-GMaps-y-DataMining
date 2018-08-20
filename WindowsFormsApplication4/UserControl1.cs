@@ -17,7 +17,6 @@ namespace WindowsFormsApplication4
     {
         private Principal principal;
         
-
         public UserControl1()
         {
             InitializeComponent();
@@ -54,6 +53,7 @@ namespace WindowsFormsApplication4
         {
             Informacion info = new Informacion(this);
             info.Show();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
