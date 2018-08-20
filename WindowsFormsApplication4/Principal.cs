@@ -20,7 +20,6 @@ namespace WindowsFormsApplication4
             gruposInvestigacion = new ArrayList();
             generarRegistros();
 			generarArticulos();
-			string hole = "";
         }
 
 		public void generarRegistros()
