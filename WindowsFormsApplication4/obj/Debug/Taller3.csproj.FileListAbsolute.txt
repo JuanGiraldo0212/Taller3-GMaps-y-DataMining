@@ -69,3 +69,20 @@ E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.CopyComplete
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\GMap.NET.Core.dll
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csprojAssemblyReference.cache
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Informacion.resources
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelAgregar.resources
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelReportes.resources
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.UserControl1.resources
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.GenerateResource.cache
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.CoreCompileInputs.cache
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.CopyComplete
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb

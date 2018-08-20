@@ -53,22 +53,34 @@ namespace WindowsFormsApplication4
 
         }
 
-        private void UserControl1_Load(object sender, EventArgs e)
-        {
-            gmap.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
-            GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
-            gmap.SetPositionByKeywords("Bogota, Colombia");
-            gmap.ShowCenter = false;
-            GMapOverlay markers = new GMapOverlay("markers");
-            GMapMarker marker = new GMarkerGoogle(
-                new PointLatLng(48.8617774, 2.349272),
-                GMarkerGoogleType.orange_dot);
-            marker.Tag="Bogota";
-            markers.Markers.Add(marker);
-            gmap.Overlays.Add(markers);
-        }
+		private void UserControl1_Load(object sender, EventArgs e)
+		{
+			gmap.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
+			GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
+			gmap.SetPositionByKeywords("Colombia");
+			gmap.ShowCenter = false;
+			GMapOverlay markers = new GMapOverlay("markers");
+			ArrayList grupos = principal.gruposInvestigacion;
+			foreach (GruposInvestigacion g in grupos)
+			{
+				GMapControl auxiliar = new GMapControl();
+				auxiliar.SetPositionByKeywords(g.ciudad);
+				Random r = new Random();
+				double incremento = r.NextDouble();
+				double lat = auxiliar.Position.Lat - 0.5 + (r.NextDouble() * 1.0);
+				double lng = auxiliar.Position.Lng - 0.5 + (r.NextDouble() * 1.0);
+				PointLatLng pos = new PointLatLng(lat, lng);
 
-        private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
+				GMapMarker marker = new GMarkerGoogle(pos,
+				GMarkerGoogleType.orange_dot);
+				marker.Tag = g.nombre;
+				markers.Markers.Add(marker);
+				gmap.Overlays.Add(markers);
+			}
+
+		}
+
+		private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
         {
             ArrayList gruposInv = principal.gruposInvestigacion;
             IEnumerable<GruposInvestigacion> consulta = from GruposInvestigacion s in gruposInv where s.nombre.Equals(item.Tag) select s;

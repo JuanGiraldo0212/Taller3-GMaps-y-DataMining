@@ -32,5 +32,10 @@ namespace WindowsFormsApplication4
         {
             
         }
-    }
+
+		private void PanelAgregar_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
