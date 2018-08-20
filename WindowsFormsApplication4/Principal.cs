@@ -19,6 +19,8 @@ namespace WindowsFormsApplication4
         {
             gruposInvestigacion = new ArrayList();
             generarRegistros();
+			generarArticulos();
+			string hole = "";
         }
 
 		public void generarRegistros()
@@ -46,22 +48,6 @@ namespace WindowsFormsApplication4
 					}
                     
 				}
-				sr.Close();
-				line = "";
-				sr = new StreamReader("Articulos.txt");
-				while ((line = sr.ReadLine()) != null)
-				{
-					String[] cadena = line.Split(':');
-					foreach(GruposInvestigacion g in gruposInvestigacion)
-					{
-						if(g.codigo.Equals(cadena[1]))
-						{
-							string[] articulos = cadena[2].Trim().Split(' ');
-							g.articulos = articulos;
-						}
-					}
-				}
-				sr.Close();
 			}
 			catch (Exception e)
 			{
@@ -88,10 +74,38 @@ namespace WindowsFormsApplication4
 
         }
 
+		public void generarArticulos()
+		{
+			StreamReader sr = new StreamReader("Articulos.txt");
+			string line = "";
+			try
+			{
+				int contador = 0;
+				while ((line = sr.ReadLine()) != null)
+				{
+					String[] cadena = line.Split(':');
+					Boolean encontrado = false;
+					for(int i = 0; i<gruposInvestigacion.Count && !encontrado;i++)
+					{
+						GruposInvestigacion g = (GruposInvestigacion)gruposInvestigacion[i];
+						if (g.codigo.Equals(cadena[1]))
+						{
+							string[] articulos = cadena[2].Trim().Split(' ');
+							g.articulos = articulos;
+							encontrado = true;
+							contador++;
+						}
+					}
+				}
+				sr.Close();
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("Exception: " + e.Message);
+			}
+		}
         public ArrayList getGrupos() {
             return gruposInvestigacion;
         }
-
-
     }
 }
