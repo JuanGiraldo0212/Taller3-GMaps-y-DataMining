@@ -12,18 +12,19 @@ namespace WindowsFormsApplication4
     public class Principal
     {
         public ArrayList gruposInvestigacion;
-        public static String ruta = "Registros.txt";
+        String ruta = "Registros.txt";
         
 
         public Principal()
         {
+            gruposInvestigacion = new ArrayList();
             generarRegistros();
+			generarArticulos();
         }
 
 		public void generarRegistros()
 		{
-            gruposInvestigacion = new ArrayList();
-            String line;
+			String line;
 			try
 			{
 				StreamReader sr = new StreamReader(ruta);
@@ -46,24 +47,6 @@ namespace WindowsFormsApplication4
 					}
                     
 				}
-				sr.Close();
-				line = "";
-				sr = new StreamReader("Articulos.txt");
-				while ((line = sr.ReadLine()) != null)
-				{
-					String[] cadena = line.Split(':');
-					foreach(GruposInvestigacion g in gruposInvestigacion)
-					{
-						if(g.codigo.Equals(cadena[1]))
-						{
-							string[] articulos = cadena[2].Trim().Split(' ');
-							g.articulos = articulos;
-                            break;
-                        }
-                        
-					}
-				}
-				sr.Close();
 			}
 			catch (Exception e)
 			{
@@ -76,17 +59,10 @@ namespace WindowsFormsApplication4
             try
             {
 
-                //Ordena los articulos para escribir en el archivo de texto
-                string articulosConcatenar = "";
-                foreach (string articulitos in articulos)
-                {
-                    articulosConcatenar = articulosConcatenar + " " + articulitos;
-                }
-
                 StreamWriter sw = new StreamWriter(ruta, true);
 
                 GruposInvestigacion registroNuevo = new GruposInvestigacion(datos[0], datos[1], datos[2], datos[3], datos[4], articulos, "CODIGO");
-                sw.WriteLine(registroNuevo.nombre + "," + registroNuevo.region + "," + registroNuevo.ciudad + "," + registroNuevo.areaInvestigacion + "," + registroNuevo.clasificacion + "," + articulosConcatenar);
+                sw.WriteLine(registroNuevo.nombre + "," + registroNuevo.region + "," + registroNuevo.ciudad + "," + registroNuevo.areaInvestigacion + "," + registroNuevo.clasificacion + "," + registroNuevo.articulos);
                 
                 sw.Close();
             }
@@ -97,10 +73,38 @@ namespace WindowsFormsApplication4
 
         }
 
+		public void generarArticulos()
+		{
+			StreamReader sr = new StreamReader("Articulos.txt");
+			string line = "";
+			try
+			{
+				int contador = 0;
+				while ((line = sr.ReadLine()) != null)
+				{
+					String[] cadena = line.Split(':');
+					Boolean encontrado = false;
+					for(int i = 0; i<gruposInvestigacion.Count && !encontrado;i++)
+					{
+						GruposInvestigacion g = (GruposInvestigacion)gruposInvestigacion[i];
+						if (g.codigo.Equals(cadena[1]))
+						{
+							string[] articulos = cadena[2].Trim().Split(' ');
+							g.articulos = articulos;
+							encontrado = true;
+							contador++;
+						}
+					}
+				}
+				sr.Close();
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("Exception: " + e.Message);
+			}
+		}
         public ArrayList getGrupos() {
             return gruposInvestigacion;
         }
-
-
     }
 }

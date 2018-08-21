@@ -22,12 +22,9 @@ C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Informacion.resources
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
-C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.ShowInfo.resources
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.UserControl1.resources
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.GenerateResource.Cache
-C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Reportes.resources
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelReportes.resources
-C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Agregar.resources
 C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelAgregar.resources
 C:\Users\hp\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
 C:\Users\hp\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
@@ -52,14 +49,11 @@ E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\GMap.NET.Core.dll
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\bin\Debug\GMap.NET.WindowsForms.dll
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csprojAssemblyReference.cache
-E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Agregar.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Informacion.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelAgregar.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.PanelReportes.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
-E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Reportes.resources
-E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.ShowInfo.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.UserControl1.resources
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.GenerateResource.cache
 E:\RepositoriosGit\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.CoreCompileInputs.cache
@@ -83,3 +77,4 @@ C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsAppl
 C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csproj.CopyComplete
 C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 C:\Users\Juan Diego\Documents\GitHub\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\juan-\Source\Repos\Taller3-GMaps-y-DataMining\WindowsFormsApplication4\obj\Debug\Taller3.csprojResolveAssemblyReference.cache

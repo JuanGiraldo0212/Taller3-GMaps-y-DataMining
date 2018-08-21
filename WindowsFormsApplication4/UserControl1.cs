@@ -123,5 +123,32 @@ namespace WindowsFormsApplication4
             rep = new PanelReportes(this);
             rep.Show();
         }
+
+        private void Buscar_Click(object sender, EventArgs e)
+        {
+            ArrayList gruposInv = principal.gruposInvestigacion;
+            IEnumerable<GruposInvestigacion> consulta = from GruposInvestigacion s in gruposInv where s.nombre.Equals(txtBuscar.Text) select s;
+            foreach (var s in consulta)
+            {
+                info.txtNombreChange = s.nombre;
+                info.txtRegionChange = s.region;
+                info.txtCiudadChange = s.ciudad;
+                info.txtClasificacionChange = s.clasificacion;
+                info.txtAreaInvestigacionChange = s.areaInvestigacion;
+                string articulos = "";
+                foreach (string art in s.articulos)
+                {
+                    articulos += art + " ";
+                }
+                info.txtArticulosChange = articulos;
+                info.Show();
+                txtBuscar.Text = "";
+            }
+        }
+
+        private void txtBuscar_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
