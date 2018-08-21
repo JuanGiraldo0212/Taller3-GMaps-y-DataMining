@@ -29,7 +29,8 @@ namespace WindowsFormsApplication4
 			chart1.Series.Add(series[1]);
 			chart1.Series.Add(series[2]);
 			chart1.Series.Add(series[3]);
-			if (tipo.Equals("Ciudad")) {
+            chart1.ChartAreas["ChartArea1"].AxisX.Interval = 1;
+            if (tipo.Equals("Ciudad")) {
 
 				ArrayList grupos = principal.getGrupos();
 				List<String> ciudades = new List<string>();
@@ -38,11 +39,13 @@ namespace WindowsFormsApplication4
 				}
 				var ciudadesD = ciudades.Distinct();
 				foreach (var c in ciudadesD) {
-					var consulta = from GruposInvestigacion s in grupos
-								   where s.ciudad == c
+                    var consulta = from GruposInvestigacion s in grupos
+                                   where s.ciudad.Equals(c)
 								   select s;
 					this.chart1.Series["Ciudad"].Points.AddXY(c, consulta.Count());
-				}
+                    Console.WriteLine(c+"-"+consulta.Count());
+
+                }
 
 			}
 			else if (tipo.Equals("Region")) {
@@ -62,7 +65,7 @@ namespace WindowsFormsApplication4
 					this.chart1.Series["Region"].Points.AddXY(c, consulta.Count());
 				}
 			}
-			else if (tipo.Equals("Area Inv"))
+			else if (tipo.Equals("Area invetigacion"))
 			{
 
 				ArrayList grupos = principal.getGrupos();
@@ -77,7 +80,7 @@ namespace WindowsFormsApplication4
 					var consulta = from GruposInvestigacion s in grupos
 								   where s.areaInvestigacion == c
 								   select s;
-					this.chart1.Series["Areas investigacion"].Points.AddXY(c, consulta.Count());
+					this.chart1.Series[2].Points.AddXY(c, consulta.Count());
 				}
 			}
 			else if (tipo.Equals("Clasificacion"))
@@ -102,7 +105,7 @@ namespace WindowsFormsApplication4
 			{
 				chart1.Series.Clear();
 				ArrayList grupos = principal.getGrupos();
-				string articulos = "";
+				string articulos = "";  
 				foreach (GruposInvestigacion c in grupos)
 				{
 					foreach (string a in c.articulos)
