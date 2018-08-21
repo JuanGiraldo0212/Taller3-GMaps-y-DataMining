@@ -62,7 +62,7 @@ namespace WindowsFormsApplication4
 					this.chart1.Series["Region"].Points.AddXY(c, consulta.Count());
 				}
 			}
-			else if (tipo.Equals("Area Inv"))
+			else if (tipo.Equals("Areas investigacion"))
 			{
 
 				ArrayList grupos = principal.getGrupos();
