@@ -107,6 +107,11 @@ namespace WindowsFormsApplication4
             
         }
 
+        public void reconstruirArraylistGruposInvestigacion()
+        {
+            principal.generarRegistros();
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             agre = new PanelAgregar(this);

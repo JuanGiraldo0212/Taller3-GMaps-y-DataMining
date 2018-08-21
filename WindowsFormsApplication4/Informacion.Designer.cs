@@ -56,6 +56,7 @@
             // 
             // txtArticulos
             // 
+            this.txtArticulos.Enabled = false;
             this.txtArticulos.Location = new System.Drawing.Point(186, 303);
             this.txtArticulos.Multiline = true;
             this.txtArticulos.Name = "txtArticulos";
@@ -65,6 +66,7 @@
             // 
             // txtClasificacion
             // 
+            this.txtClasificacion.Enabled = false;
             this.txtClasificacion.Location = new System.Drawing.Point(186, 247);
             this.txtClasificacion.Name = "txtClasificacion";
             this.txtClasificacion.Size = new System.Drawing.Size(200, 20);
@@ -72,6 +74,7 @@
             // 
             // txtAreaInvestigacion
             // 
+            this.txtAreaInvestigacion.Enabled = false;
             this.txtAreaInvestigacion.Location = new System.Drawing.Point(186, 194);
             this.txtAreaInvestigacion.Name = "txtAreaInvestigacion";
             this.txtAreaInvestigacion.Size = new System.Drawing.Size(200, 20);
@@ -79,6 +82,7 @@
             // 
             // txtCiudad
             // 
+            this.txtCiudad.Enabled = false;
             this.txtCiudad.Location = new System.Drawing.Point(186, 142);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(200, 20);
@@ -86,6 +90,7 @@
             // 
             // txtRegion
             // 
+            this.txtRegion.Enabled = false;
             this.txtRegion.Location = new System.Drawing.Point(186, 90);
             this.txtRegion.Name = "txtRegion";
             this.txtRegion.Size = new System.Drawing.Size(200, 20);
@@ -93,6 +98,7 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.Enabled = false;
             this.txtNombre.Location = new System.Drawing.Point(186, 39);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(200, 20);
