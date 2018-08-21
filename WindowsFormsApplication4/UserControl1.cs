@@ -103,7 +103,6 @@ namespace WindowsFormsApplication4
                 info.txtArticulosChange = articulos;
                 info.Show();
             }
-
             
         }
 

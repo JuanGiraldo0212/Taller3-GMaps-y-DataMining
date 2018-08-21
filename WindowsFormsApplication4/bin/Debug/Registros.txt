@@ -21,7 +21,6 @@ Convocatoria 781 de 2017,01/01/2017,COL0104134,Cavendish,01/04/2008,Villavicenci
 Convocatoria 781 de 2017,01/01/2017,COL0116073,Grupo Interdisciplinario de Estudios Sociales - GIES,01/01/2009,Bello,Antioquia,Colombia,Eje Cafetero,05088,5I,Otras ciencias sociales,Ciencias sociales,B,3,8
 Convocatoria 781 de 2017,01/01/2017,COL0015099,Programa de Estudio y Control de Enfermedades Tropicales,01/04/1986,Medellín,Antioquia,Colombia,Eje Cafetero,05001,3B,Medicina clínica,Ciencias médicas y de la salud,A1,5,31
 Convocatoria 781 de 2017,01/01/2017,COL0058784,Grupo de Investigación Clínica en Enfermedades del Niño y del Adolescente - Pediaciencias,01/08/2001,Medellín,Antioquia,Colombia,Eje Cafetero,05001,3B,Medicina clínica,Ciencias médicas y de la salud,A1,5,16
-
 Convocatoria 781 de 2017,01/01/2017,COL0007426,Grupo Icesi de Informática y Telecomunicaciones (i2T),01/01/1999,Cali,Valle del Cauca,Colombia,Pacífico,76001,2B,"Ingenierías eléctrica, electrónica e informática",Ingeniería y tecnología,B,3,18
 Convocatoria 781 de 2017,01/01/2017,COL0074438,Comunicación - Cultura - Mediación,01/07/2007,"Bogotá, D.C.","Bogotá, D. C.",Colombia,Distrito Capital,11001,5H,Periodismo y comunicaciones,Ciencias sociales,B,3,10
 Convocatoria 781 de 2017,01/01/2017,COL0010109,Grupo de Investigación en Percepción y Sistemas Inteligentes,01/03/1992,Cali,Valle del Cauca,Colombia,Pacífico,76001,2B,"Ingenierías eléctrica, electrónica e informática",Ingeniería y tecnología,A1,5,25

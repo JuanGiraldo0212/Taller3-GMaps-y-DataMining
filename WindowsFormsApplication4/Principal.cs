@@ -12,7 +12,7 @@ namespace WindowsFormsApplication4
     public class Principal
     {
         public ArrayList gruposInvestigacion;
-        String ruta = "Registros.txt";
+        public static String ruta = "Registros.txt";
         
 
         public Principal()
@@ -59,10 +59,17 @@ namespace WindowsFormsApplication4
             try
             {
 
+                //Ordena los articulos para escribir en el archivo de texto
+                string articulosConcatenar = "";
+                foreach (string articulitos in articulos)
+                {
+                    articulosConcatenar = articulosConcatenar + " " + articulitos;
+                }
+
                 StreamWriter sw = new StreamWriter(ruta, true);
 
                 GruposInvestigacion registroNuevo = new GruposInvestigacion(datos[0], datos[1], datos[2], datos[3], datos[4], articulos, "CODIGO");
-                sw.WriteLine(registroNuevo.nombre + "," + registroNuevo.region + "," + registroNuevo.ciudad + "," + registroNuevo.areaInvestigacion + "," + registroNuevo.clasificacion + "," + registroNuevo.articulos);
+                sw.WriteLine(registroNuevo.nombre + "," + registroNuevo.region + "," + registroNuevo.ciudad + "," + registroNuevo.areaInvestigacion + "," + registroNuevo.clasificacion + "," + articulosConcatenar);
                 
                 sw.Close();
             }
