@@ -82,7 +82,7 @@ namespace WindowsFormsApplication4
 
 		public void generarArticulos()
 		{
-			StreamReader sr = new StreamReader("Articulos.txt");
+			StreamReader sr = new StreamReader("..\\..\\Articulos.txt");
 			string line = "";
 			try
 			{

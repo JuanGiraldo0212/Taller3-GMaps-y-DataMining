@@ -39,7 +39,6 @@ namespace WindowsFormsApplication4
             principal = new Principal();
             agre = new PanelAgregar(this);
             rep = new PanelReportes(this);
-            info = new Informacion(this);
             
         }
 
@@ -86,7 +85,11 @@ namespace WindowsFormsApplication4
 
 		private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
         {
-            ArrayList gruposInv = principal.gruposInvestigacion;
+            if (info == null)
+            {
+            info = new Informacion(this);
+                info.FormClosing += fManage_FormOneClosing;
+                ArrayList gruposInv = principal.gruposInvestigacion;
             IEnumerable<GruposInvestigacion> consulta = from GruposInvestigacion s in gruposInv where s.nombre.Equals(item.Tag) select s;
             foreach(var s in consulta)
             {
@@ -103,8 +106,17 @@ namespace WindowsFormsApplication4
                 info.txtArticulosChange = articulos;
                 info.Show();
             }
+            }
             
         }
+
+        public void fManage_FormOneClosing(object sender, FormClosingEventArgs e)
+        {
+        
+            info = null;
+        }
+
+
 
         public void reconstruirArraylistGruposInvestigacion()
         {
